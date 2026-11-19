@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <label for="u1">Username:</label>
+        <input type="text" id="u1" name="uname" maxlength="8"
+        placeholder="Enter your username" size="20">
+        <br>
+        <br>
+    
+    <!-- placeholder attribute is used to provide a hint or example of the expected input in a form field. It is displayed as light gray text inside the input field when it is empty, and disappears when the user starts typing. -->
+        <label for="p1">Password:</label>
+        <input type="password" id="p1"name="password" minlength="5" maxlength="6"
+        placeholder="Enter your password" size="20">
+        <br>
+        <br>
+
+        <label for="e1">Email:</label>
+        <input type="email" id="e1" name="email" 
+        placeholder="Enter your email" size="20">
+        <br>
+        <br>
+
+     <!-- textarea is used to create a multiline text input field -->
+
+        <label for="add1">Enter Address:</label><br>
+        <textarea name="address" id="add1" rows="5"cols="10">jalandar</textarea>
+        <br><br>
+
+        <label for="h1">Hobbies:</label><br>
+        <input type="checkbox" name="hobby" id="read1" value="reading" checked>
+        <label for="read1">Reading</label><br>
+        <input type="checkbox" name="hobby" id="travel1" value="Travelling">
+        <label for="travel1">Travelling</label><br>
+        <input type="checkbox" name="hobby" id="music1" value="music">
+        <label for="music1">Music</label><br>
+        <input type="checkbox" name="hobby" id="dance1" value="dancing">
+        <label for="dance1">Dancing</label><br>
+
+
+        <br><br>
+
+        <label for="s1">Select course:-</label><br>
+        <input type="radio" name="course" id="s1" value="b.tech" checked>
+        <label for="s1">B.Tech</label><br>
+        <input type="radio" name="course" id="s2" value="BCA">
+        <label for="s2">BCA</label><br>
+        <input type="radio" name="course" id="s3" value="BSC">
+        <label for="s3">BSC</label><br>
+        <br>
+
+        <label for="state1">Choose State:</label>
+        <select name="state" id="state1" size="1" multiple>
+            <!-- multiple attribute allows users to select more than one option from the list.
+              by pressing ctrl and clicking on the state name they can select multiple states. -->
+            <option value="punjab" selected>Punjab</option>
+            <option value="haryana">Haryana</option>
+            <option value="himachal">Himachal</option>
+            <option value="Bihar">Bihar</option>
+        </select>
+        
+
+        
+
+        <br><br>
+        <input type="submit">
+
+    </form>
+</body>
+</html>

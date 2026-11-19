@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        header{
+            background-color: blanchedalmond;
+        }
+        
+        a[href="https://ums.lpu.in/"]{
+            background-color: aquamarine;
+            color: blueviolet;
+        /* 
+        this is atribute selector tag from css selector
+        */
+        }
+        #art1{
+            background-color: blue;
+
+            /*
+            here this tag id of css known as 'ID' point no 3
+            */ 
+        }
+        .s1{
+            background-color: chocolate;
+            /*
+            here this is called class selector and it 
+            */
+        }
+        
+        *{
+            color: mediumaquamarine;
+            /*
+            it is an universal selector */
+        }
+        #art1 h3{
+            color: brown;
+            /*
+            this is an combinator selector
+            */
+        }
+        
+    </style>
+    <!-- /* jhj /* this symbol is used to coment the css term -->
+    <link rel="stylesheet" href="/Css/mystyle.css"
+    <!-- here style tag is an css, 'internal css' -->
+</head>
+<body>
+    <header>
+        <h1>MY TRAVEL VLOG</h1>
+        <nav>
+            <a href="https://ums.lpu.in/" style="background-color: aquamarine;">Home</a>
+            <!-- here style tag is an inline tag used to change an specific line or word rather than intenal it is used to change thev whole group tag  -->
+            <a href="#">About us</a>
+            <a href="#">Contact us</a>
+        </nav>
+        
+    </header>
+    <hr>
+    <main>
+ <!-- main tag is used to define the main content of the document. It should be unique and not repeated across pages. -->
+        <code>
+            function addition(){
+                console.log("sum is printed");
+            }
+        </code>
+        <pre>
+ <!-- pre tag is used to define preformatted text. It preserves both spaces and line breaks, making it useful for displaying code snippets or other text where formatting is important. -->
+            function addition(){
+                console.log("sum is printed");
+            }
+        </pre>
+        <p>We are studing <abbr title="Hupertext Markup Language">HTML</abbr></p>
+        <section class="s1">
+            <h2>States</h2>
+            <article>
+                <h3>Punjab</h3>
+                <h4>Places</h4>
+                <p>Amritsar , jalandar and many more,</p>
+                <h3>Food</h3>
+                <p>Lassi, chhoe kulche</p>
+            </article>
+        </section>
+        <section class="s1">
+            <h2>State</h2>
+            <article id="art1">
+                <h3>Bihar</h3>
+                <h4>places</h4>
+                <p>Patna,Nalanda,Rohatas,Rajgir</p>
+                <h3>Food</h3>
+                <p>Litti chokha, Sattu Paratha</p>
+
+            </article>
+        </section>
+       <aside>
+        <a href="#">Important Links</a>
+        <p>Upcoming States</p>
+        <p>Upcoming Dates for Travel</p>
+       </aside>
+
+    </main>
+    <footer>
+        <address>
+            Visit us at: Bihar,Patna<br>
+            Phone Number: 4561384612<br>
+            Email: Protravel@gmail.com<br>
+
+        </address>
+        <p>&copy; All Rights Are Reserved</p>
+    </footer>
+</body>
+</html>

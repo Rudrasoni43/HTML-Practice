@@ -1,0 +1,25 @@
+/*ther are 3 types of css 
+1. internal css - defined in semamntingelement
+2. inline css - defined in semamntingelement
+3. external css -  creating an external file and editing the web by it is callde it*/
+
+/*
+CSS SELECTOR 
+1.Type selector - fleching elemint wtih the help of tag 
+*/
+
+footer{
+    background-color: blueviolet;
+}
+
+/*
+2. Atribute selector tag - used in head section of the semanting file
+
+3. Id - used to specify an id and then change something as shown in the swemanting
+
+4.Class Selector - as shown in the semanting file and in section paryt ans using class tag in head also 
+
+5. universal selector - it will apply through out all the element of the page  "this has least prority"
+
+6. Combinator Selector - it is an combination if any two tags as eg in semanting head -
+        used to types ' type selector' and 'id'
